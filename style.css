@@ -1,0 +1,49 @@
+.header{
+    font-size:larger ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.body.img{
+    font-style: italic;
+    font-family: cursive;
+    font-size: larger;
+}
+.grid{
+   
+    display:flex;
+    flex-wrap: wrap;
+}
+.grid.img{
+    border: 2px solid black;
+    border-radius: 50px;;
+}
+.origami{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    background-color:rgb(14, 70, 122);
+    width: 310px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 50x;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
+body{
+    margin: 0px;
+background-color:moccasin;
+}
+a:link{
+color:cadetblue;
+}
+a:visited{
+    color:white;
+}
